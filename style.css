@@ -1,0 +1,412 @@
+{
+    margin:0; 
+    padding:0;
+     box-sizing:border-box;
+} 
+
+.logo{
+  
+font-family: 'Satisfy';
+font-style: normal;
+color: #000000;
+font-size: 20px;
+text-align: center;
+display: flex;
+padding-left: 620px;
+height: 50px;
+
+}
+
+.logo img{
+    padding-top: 28px;
+}
+hr.logohr{
+    
+    border:none;
+ 	width: 100%;
+	height: 10px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 5px 5px -5px #333;
+  }
+.var{
+    font-family: 'Poppins';
+font-style: normal;
+text-align: center;
+color: #2B2B2B;
+letter-spacing: 10px;
+}
+hr.varhr{
+    border: #000000 2px solid;
+    width: 5%;
+    
+}
+div.pizza {
+  background: url(pizza.jpeg);
+   background-size: contain;
+   width: 720px;
+   padding-top: 10px;
+   border-radius: 5%;
+   min-width: 680px;
+   height: 575px;
+   position: relative;
+}
+
+.pizzatext{
+    background-color: rgb(30, 1, 98);
+    opacity: 70%;
+    color: #fff;
+    position:absolute;
+    bottom: 0px;
+    border-radius: 0 0 25px 25px;
+
+}
+.pizzatext h3{
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+   }
+.pizzatext span{
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+}
+.button{
+    background-color: rgb(30, 1, 98);
+    color: white ;
+    border-radius: 35%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    
+}
+
+div.french{
+    background: url(frenchfries.jpeg);
+    background-size: cover;
+    float: right;
+    min-height: 300px;
+    border-radius: 5%;
+   /* padding: 20px;*/
+    min-width: 377px;
+    margin: 0px 63px 10px 10px;
+    position: relative;
+   
+}
+.frenchtext{
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+
+}
+.frenchtext h3{
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+
+}
+.frenchtext span{
+    padding-left: 20px;
+    opacity: 100%;
+    /*padding-bottom: 50px;*/
+
+}
+.buttonFrench{
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 35%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    
+}
+div.paneer{
+    background: url(paneer.jpeg);
+    background-size: cover;
+    float: right;
+     border-radius: 5%;
+   padding: 20px;
+    min-width: 290px;
+    min-height: 250px;
+    margin: 0px 0px 10px 10px;
+    position: relative;
+
+    
+    
+}
+.paneertext{
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+    border-radius: 0 0 15px 15px;
+    margin: -22px;
+   position: absolute;
+
+}
+.paneertext h3{
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+
+}
+.paneertext span{
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 45px;
+
+}
+.buttonpaneer{
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 35%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    
+}
+div.macron{
+    background: url(macron.jpeg);
+    background-size: cover;
+    float: left;
+    
+    border-radius: 5%;
+    padding: 20px;
+    min-width: 350px;
+    min-height: 230px;
+    margin: 0px 58px 10px 10px;
+    position: relative;
+    
+   
+}
+.macrontext{
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+    border-radius: 0 0 15px 15px;
+    margin: -22px;
+    position: absolute;
+
+}
+.macrontext h3{
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+
+}
+.macrontext span{
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 45px;
+
+}
+.buttonmacron{
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 35%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    
+}
+div.donut{
+    background:url(donut.jpeg);
+    background-size: cover;
+    float: left;
+    border-radius: 5%;
+    padding: 20px;
+    min-width: 290px;
+    min-height: 250px;
+    margin: 0px 0px 10px 10px;
+   position: relative;
+
+
+}
+.donuttext{
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    color: rgb(0, 0, 0);
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+    border-radius: 0 0 15px 15px;
+    margin: -22px;
+   position: absolute;
+
+}
+.donuttext h3{
+    font-weight: bold;
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+
+}
+.donuttext span{
+    padding-left: 20px;
+    opacity: 100%;
+    padding-bottom: 45px;
+
+}
+.buttondonut{
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 35%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    
+}
+
+.flex-cont{
+    display: flex;
+    padding-top: 40px;
+}
+.flex-cont > div{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+div.bf{
+    background: url(breakfast.jpeg);
+    width: 100%;
+    height: 435px;
+    margin-top: 20px;
+    position: relative;
+}
+.chef{
+    width: 300px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+   position: absolute;
+   text-align: center;
+   border-radius: 10%;
+   top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+    
+.chef img{
+    background-size: contain;
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin-top: 10%;
+}
+.img1 img{
+    float: left;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin-top: 75px ;
+    margin-left: 180px;
+    margin-bottom: 10px;    
+
+}
+.img1 {
+    float: left;
+    color: #fff;
+}
+.img2 img{
+    float: right;
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    margin-top: 75px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.img2{
+    float: right;
+    color: #fff;
+}
+
+.last img{
+    width: 1425px;
+    background-size: contain;
+    margin-top: 150px;
+    position: relative;
+}
+
+.last h2{
+    position: absolute;
+    top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.last hr{
+    position: absolute;
+    top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.purples1{
+    position: absolute;
+    top:140%;
+    float: left;
+    left: 180px;
+}
+.purples2{
+    position: absolute;
+    top: 250%;
+    float: left;
+    left: 180px;
+}
+.purples3{
+    position: absolute;
+    top: 140%;
+    float: right;
+    right: 130px;
+}
+.purples4 {
+    position: absolute;
+    top: 250%;
+    float: right;
+    right:70px;
+}
+.purples4text h4,p{
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    float: right;
+    
+
+}
+
+.logolast {
+    display: flex;
+    margin-top: 500px;
+    margin-left: 600px;
+    padding: 20px;
+    
+}
